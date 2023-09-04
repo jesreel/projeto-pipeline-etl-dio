@@ -1,7 +1,7 @@
 
 # Projeto Pipeline ETL 
 
-projeto Pipeline ETL para o Bootcamp Santander - Ciência de Dados com Python da DIO
+Projeto Pipeline ETL para o Bootcamp Santander - Ciência de Dados com Python da DIO
 
 ## Objetivo
 Idealizar e criar um Pipeline ETL (extract, transform, load) utilizando Python
