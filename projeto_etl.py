@@ -25,7 +25,7 @@ Transform:
   criar um novo item ('ação') na primeira lista (cabeçalho) para guardar
   as orientações
   
-  criar uma lista (tabela) para guardar as litas tratadas (matriz)
+  criar uma lista (tabela) para guardar as listas tratadas (matriz)
 ------------------------------------------------0----------------------- '''
 
 tabela = list()
@@ -59,7 +59,7 @@ Load:
      para cada cliente
 ------------------------------------------------------------------------------- '''
 
-novo_arquivo open('orientações.csv', 'w', newline='')
+novo_arquivo =  open('orientacoes.csv', 'w', newline='')
 orientacoes = csv.writer(novo_arquivo, delimiter=',')
 orientacoes.writerows(tabela)
 
